@@ -1,27 +1,24 @@
-# TimeTrack - Organizador de Estudos (v0.2)
+TimeTrack - Organizador de Estudos (v0.1)
 
-O **TimeTrack** é um aplicativo mobile desenvolvido para ajudar estudantes a organizarem sua rotina de forma produtiva. Este projeto foi construído com foco em ser **totalmente funcional**, permitindo que o usuário interaja com metas, cronômetros e calendários em tempo real.
+O **TimeTrack** é um aplicativo mobile desenvolvido para ajudar estudantes a organizarem sua rotina de forma produtiva. Este projeto foi construído com foco em ser intrativo e funcional, permitindo que o usuário interaja com metas, cronômetros e calendários.
 
-O diferencial deste projeto é que ele não é apenas visual; todas as telas possuem interações reais, cálculos de progresso e navegação integrada.
+Funcionalidades do APP:
+- Home Dinâmica: Dashboard com barra de progresso que calcula o desempenho diário.
+- Central de Estudos: Lista de conteúdos com filtros por matéria e checklist de tarefas.
+- Calendário Interativo: Agendamento de tarefas por data.
+- Gestão de Metas: Adição e exclusão de objetivos com sistema de conclusão.
+- Foco (Pomodoro): Cronômetro integrado para auxiliar na concentração durante os estudos usando o famoso método pomodoro.
 
-## Principais Funcionalidades
-- **Home Dinâmica:** Dashboard com barra de progresso que calcula automaticamente o desempenho do dia.
-- **Central de Estudos:** Lista de conteúdos com filtros por matéria e checklist de subtarefas.
-- **Calendário Interativo:** Agendamento de tarefas por data com feedback visual.
-- **Gestão de Metas:** Adição e exclusão de objetivos com sistema de conclusão e ícones dinâmicos.
-- **Foco (Pomodoro):** Cronômetro integrado para auxiliar na concentração durante os estudos.
+Tecnologias Utilizadas:
+- React Native (Framework principal)
+- Expo & Expo Go (Ambiente de desenvolvimento e testes em dispositivo físico)
+- Lucide React Native (Biblioteca de ícones modernos)
+- React Navigation (Sistema de rotas e transição entre telas)
+- Expo Linear Gradient (Estilização visual premium)
 
-## Tecnologias Utilizadas
-- **React Native** (Framework principal)
-- **Expo & Expo Go** (Ambiente de desenvolvimento e testes em dispositivo físico)
-- **Lucide React Native** (Biblioteca de ícones modernos)
-- **React Navigation** (Sistema de rotas e transição entre telas)
-- **Expo Linear Gradient** (Estilização visual premium)
-
-## Como rodar o projeto
-1. Certifique-se de ter o **Node.js** instalado.
+Como Testar o projeto:
+1. Precisa ter o Node.js instalado.
 2. Instale as dependências com o comando:
-   ```bash
-   ```npm install
-3. Para iniciar o servidor Expo:
-    ```npx expo start
+      npm install
+3. Iniciar o servidor Expo:
+       npx expo start
